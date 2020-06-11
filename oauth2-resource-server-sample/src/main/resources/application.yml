@@ -1,0 +1,9 @@
+server:
+  port : 8081
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://{orgname}.okta.com/oauth2/default/v1/keys
