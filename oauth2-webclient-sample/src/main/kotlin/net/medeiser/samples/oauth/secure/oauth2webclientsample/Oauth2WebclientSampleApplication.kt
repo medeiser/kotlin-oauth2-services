@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class Oauth2WebclientSampleApplication
 
 fun main(args: Array<String>) {
-	runApplication<Oauth2WebclientSampleApplication>(*args)
+    runApplication<Oauth2WebclientSampleApplication>(*args)
 }

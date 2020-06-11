@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          custom:
+            client-id: {client-id}
+            client-secret: {client-secret}
+            authorization-grant-type: client_credentials
+        provider:
+          custom:
+            token-uri: https://{orgname}.okta.com/oauth2/default/v1/token
+
+logging:
+  level:
+    root: debug
