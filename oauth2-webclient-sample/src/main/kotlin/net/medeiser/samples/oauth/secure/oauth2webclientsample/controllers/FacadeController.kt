@@ -1,4 +1,4 @@
-package net.medeiser.samples.oauth.secure.oauth2webclientsample.api.controllers
+package net.medeiser.samples.oauth.secure.oauth2webclientsample.controllers
 
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.GetMapping
